@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Auto Popup</title>
+	<link rel="stylesheet" href="css/demo.css" type="text/css">
+	<link rel="stylesheet" href="css/style-auto-pop.css" type="text/css">
+</head>
+<body>
+<div class="navbar-wrapper">
+	<ul class="navbar">
+		<li><a href="index.html">Popup Gelap</a></li>
+		<li><a href="index2.html">Popup Terang</a></li>
+		<li class="active"><a href="#">Auto Popup</a></li>
+	</ul>
+</div>
+<h1 class="demo-title">Auto Popup</h1>
+
+<div class="popup-wrapper" id="popup">
+	<div class="popup-container">
+
+		<!-- Konten popup-->
+		<form action="#" method="post" class="popup-form">
+			<h2>Ups !!</h2>
+			<p>Jangan hanya melihat saja, buruan masukan email anda agar mendapatkan tawaran menarik dari kami.<br/>
+			<strong>Percayalah, saya hanya akan mengirim sesuatu yang bermanfaat untuk anda :)</strong></p>
+			<div class="input-group">
+				<p><input type="email" name="email" placeholder="Email Address"></p>
+				<p> 
+				<input type="hidden" name="action" value="subscribe"> 
+				<input type="hidden" name="source" value="#ea7722"> 
+				<input type="hidden" name="sub-type" value="widget"> 
+				<input type="hidden" name="redirect_fragment" value="blog_subscription-2"> 
+				<input type="hidden" id="_wpnonce" name="_wpnonce" value="aaf0b68fcd"> 
+				<input type="submit" value="Submit" name="jetpack_subscriptions_widget">
+				</p>
+			</div>
+		</form>
+		<a class="popup-close" href="#popup">X</a>
+	</div>
+</div>
+
+</div>
+
+</body>
+</html>
